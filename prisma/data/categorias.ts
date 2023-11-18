@@ -21,7 +21,7 @@ const categorias = [
   },
   {
     icono: "libreria",
-    nombre: "Librerría",
+    nombre: "Librería",
   },
 ];
 
