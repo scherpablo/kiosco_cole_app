@@ -301,25 +301,25 @@ const productos = [
   {
     nombre: "Agua Frutilla",
     precio: 0,
-    imagen: "helados_01",
+    imagen: "helados_02",
     categoriaId: 5,
   },
   {
     nombre: "Do2 Frutilla Crema",
     precio: 0,
-    imagen: "helados_01",
+    imagen: "helados_03",
     categoriaId: 5,
   },
   {
     nombre: "Cabito Combinado Chocolate",
     precio: 0,
-    imagen: "helados_01",
+    imagen: "helados_04",
     categoriaId: 5,
   },
   {
     nombre: "Cabito Combinado Dulce de leche",
     precio: 0,
-    imagen: "helados_01",
+    imagen: "helados_04",
     categoriaId: 5,
   },
   // LIBRERIA
