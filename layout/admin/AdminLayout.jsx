@@ -8,7 +8,7 @@ export default function AdminLayout({ children, pagina }) {
   return (
     <>
       <Head>
-        <title>Kiosco - {pagina}</title>
+        <title>Kiosco Cole - {pagina}</title>
         <meta name="description" content="Quosco Cafetería" />
       </Head>
 

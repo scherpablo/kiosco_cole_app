@@ -28,7 +28,7 @@ export default function Layout({ children, pagina }) {
   return (
     <>
       <Head>
-        <title>Kiosco Virtual - {pagina}</title>
+        <title>Kiosco Cole - {pagina}</title>
         <meta name="description" content="La Fama - Restó" />
       </Head>
       <div className={styles.containerAsaide}>
