@@ -137,25 +137,25 @@ const productos = [
   {
     nombre: "Baggio Naranja",
     precio: 350,
-    imagen: "bebidas_01",
+    imagen: "bebidas_02",
     categoriaId: 3,
   },
   {
     nombre: "Baggio Manzana",
     precio: 350,
-    imagen: "bebidas_01",
+    imagen: "bebidas_03",
     categoriaId: 3,
   },
   {
     nombre: "Agua",
     precio: 350,
-    imagen: "bebidas_01",
+    imagen: "bebidas_04",
     categoriaId: 3,
   },
   {
-    nombre: "Power Manzana",
+    nombre: "Power Ade Manzana",
     precio: 700,
-    imagen: "bebidas_01",
+    imagen: "bebidas_05",
     categoriaId: 3,
   },
   // GOLOSINAS
