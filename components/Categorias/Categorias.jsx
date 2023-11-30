@@ -17,7 +17,7 @@ const Categorias = ({ categoria }) => {
         width={70}
         height={70}
         // src={`/assets/img/icono_${icono}.svg`}
-        src={`/assets/img/icono_${icono}.png`}
+        src={`/assets/img/iconos/icono_${icono}.png`}
         alt="imagen icono"
       />
 
