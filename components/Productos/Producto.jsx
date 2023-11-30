@@ -23,7 +23,6 @@ const Producto = ({ producto }) => {
         <div className={styles.divDescripcion}>
           <h3 className={styles.h3}>{nombre}</h3>
           <p className={styles.p}>{formatearDinero(precio)}</p>
-          {/* <h2 className={styles.h2}>Elavoración Artesanal</h2> */}
           <button
             className={styles.botonProducto}
             type="button"

@@ -70,37 +70,37 @@ const productos = [
   {
     nombre: "Hamburguesa Con Jamon y queso",
     precio: 0,
-    imagen: "sandwiches_01",
+    imagen: "sandwiches_02",
     categoriaId: 2,
   },
   {
     nombre: "Pebete",
     precio: 0,
-    imagen: "sandwiches_01",
+    imagen: "sandwiches_03",
     categoriaId: 2,
   },
   {
     nombre: "Tostado",
     precio: 0,
-    imagen: "sandwiches_01",
+    imagen: "sandwiches_04",
     categoriaId: 2,
   },
   {
     nombre: "Super Pancho",
     precio: 0,
-    imagen: "sandwiches_01",
+    imagen: "sandwiches_05",
     categoriaId: 2,
   },
   {
     nombre: "Conos Fritas",
     precio: 800,
-    imagen: "sandwiches_01",
+    imagen: "sandwiches_06",
     categoriaId: 2,
   },
   {
     nombre: "Nuggets",
     precio: 700,
-    imagen: "sandwiches_01",
+    imagen: "sandwiches_07",
     categoriaId: 2,
   },
   // BEBIDAS
