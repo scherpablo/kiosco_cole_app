@@ -36,7 +36,7 @@ const productos = [
     categoriaId: 1,
   },
   {
-    nombre: "Empanadas x 2",
+    nombre: "Empanadas x 2 unidades",
     precio: 1700,
     imagen: "menus_06",
     categoriaId: 1,
