@@ -324,7 +324,25 @@ const productos = [
   },
   // LIBRERIA
   {
-    nombre: "En Proceso",
+    nombre: "Proximamente",
+    precio: 0,
+    imagen: "libreria_01",
+    categoriaId: 6,
+  },
+  {
+    nombre: "Proximamente",
+    precio: 0,
+    imagen: "libreria_01",
+    categoriaId: 6,
+  },
+  {
+    nombre: "Proximamente",
+    precio: 0,
+    imagen: "libreria_01",
+    categoriaId: 6,
+  },
+  {
+    nombre: "Proximamente",
     precio: 0,
     imagen: "libreria_01",
     categoriaId: 6,
