@@ -264,7 +264,7 @@ const productos = [
   {
     nombre: "Turrones",
     precio: 150,
-    imagen: "golosinas_17",
+    imagen: "golosinas_18",
     categoriaId: 4,
   },
   {
