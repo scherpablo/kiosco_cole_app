@@ -29,7 +29,7 @@ export default function Layout({ children, pagina }) {
     <>
       <Head>
         <title>Kiosco Cole - {pagina}</title>
-        <meta name="description" content="La Fama - Restó" />
+        <meta name="description" content="Kiosco Virtual" />
       </Head>
       <div className={styles.containerAsaide}>
         <aside className={styles.aside}>

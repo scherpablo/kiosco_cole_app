@@ -9,7 +9,7 @@ export default function AdminLayout({ children, pagina }) {
     <>
       <Head>
         <title>Kiosco Cole - {pagina}</title>
-        <meta name="description" content="Quosco Cafetería" />
+        <meta name="description" content="Kiosco Virtual" />
       </Head>
 
       <div className={styles.divAside}>
