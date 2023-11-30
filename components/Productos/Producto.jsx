@@ -12,7 +12,7 @@ const Producto = ({ producto }) => {
       <div className={styles.divProducto}>
         <div className={styles.divImagen}>
           <Image
-            src={`/assets/img/${imagen}.jpg`}
+            src={`/assets/img/productos/${imagen}.jpg`}
             alt={`Imagen Producto ${nombre}`}
             width={215}
             height={240}
