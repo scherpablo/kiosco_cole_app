@@ -7,7 +7,7 @@
 
   .logoImg {
     position: relative;
-    top: -20px;
+    top: 15px;
     left: 10px;
     border-radius: 50%;
   }
@@ -15,7 +15,7 @@
   .nav {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 65px;
   }
 
   .divPasos {
