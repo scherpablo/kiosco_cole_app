@@ -1,7 +1,7 @@
 const productos = [
   {
     nombre: "Hamburguesa + Guarnición",
-    precio: 2600,
+    precio: 2700,
     imagen: "menus_01",
     categoriaId: 1,
   },
