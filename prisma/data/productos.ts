@@ -1,4 +1,5 @@
 const productos = [
+  // MENUS
   {
     nombre: "Hamburguesa + Guarnición",
     precio: 2700,
@@ -59,6 +60,7 @@ const productos = [
     imagen: "menus_09",
     categoriaId: 1,
   },
+  // SNADWICHES
   {
     nombre: "Hamburguesa simple",
     precio: 0,
@@ -101,6 +103,7 @@ const productos = [
     imagen: "sandwiches_01",
     categoriaId: 2,
   },
+  // BEBIDAS
   {
     nombre: "Coca Cola",
     precio: 700,
@@ -155,6 +158,7 @@ const productos = [
     imagen: "bebidas_01",
     categoriaId: 3,
   },
+  // GOLOSINAS
   {
     nombre: "Alfajor triple Bonobon",
     precio: 600,
@@ -164,129 +168,130 @@ const productos = [
   {
     nombre: "Alfajor triple Oreo",
     precio: 600,
-    imagen: "golosinas_01",
+    imagen: "golosinas_02",
     categoriaId: 4,
   },
   {
     nombre: "Alfajor triple Jorgelin",
     precio: 600,
-    imagen: "golosinas_01",
+    imagen: "golosinas_03",
     categoriaId: 4,
   },
   {
     nombre: "Alfajor triple Pepitos",
     precio: 600,
-    imagen: "golosinas_01",
+    imagen: "golosinas_04",
     categoriaId: 4,
   },
   {
     nombre: "Alfajor Jorgito",
     precio: 350,
-    imagen: "golosinas_01",
+    imagen: "golosinas_05",
     categoriaId: 4,
   },
   {
     nombre: "Alfajor Guaymallen Oro",
     precio: 300,
-    imagen: "golosinas_01",
+    imagen: "golosinas_06",
     categoriaId: 4,
   },
   {
     nombre: "Alfajor Guaymallen Blanco",
     precio: 200,
-    imagen: "golosinas_01",
+    imagen: "golosinas_07",
     categoriaId: 4,
   },
   {
     nombre: "Alfajor Guaymallen Negro",
     precio: 200,
-    imagen: "golosinas_01",
+    imagen: "golosinas_08",
     categoriaId: 4,
   },
   {
     nombre: "Alfajor Fulbito",
     precio: 100,
-    imagen: "golosinas_01",
+    imagen: "golosinas_09",
     categoriaId: 4,
   },
   {
     nombre: "Doritos",
     precio: 850,
-    imagen: "golosinas_01",
+    imagen: "golosinas_10",
     categoriaId: 4,
   },
   {
     nombre: "3D",
     precio: 850,
-    imagen: "golosinas_01",
+    imagen: "golosinas_11",
     categoriaId: 4,
   },
   {
     nombre: "Papas Lays",
     precio: 850,
-    imagen: "golosinas_01",
+    imagen: "golosinas_12",
     categoriaId: 4,
   },
   {
     nombre: "Cheetos",
     precio: 850,
-    imagen: "golosinas_01",
+    imagen: "golosinas_13",
     categoriaId: 4,
   },
   {
     nombre: "Twistos",
     precio: 850,
-    imagen: "golosinas_01",
+    imagen: "golosinas_14",
     categoriaId: 4,
   },
   {
     nombre: "Rex",
     precio: 850,
-    imagen: "golosinas_01",
+    imagen: "golosinas_15",
     categoriaId: 4,
   },
   {
     nombre: "Kesitas",
     precio: 850,
-    imagen: "golosinas_01",
+    imagen: "golosinas_16",
     categoriaId: 4,
   },
   {
     nombre: "Saladix",
     precio: 850,
-    imagen: "golosinas_01",
+    imagen: "golosinas_17",
     categoriaId: 4,
   },
   {
     nombre: "Turrones",
     precio: 150,
-    imagen: "golosinas_01",
+    imagen: "golosinas_17",
     categoriaId: 4,
   },
   {
     nombre: "Barra Kinder",
     precio: 300,
-    imagen: "golosinas_01",
+    imagen: "golosinas_19",
     categoriaId: 4,
   },
   {
     nombre: "Barra bon o bon",
     precio: 480,
-    imagen: "golosinas_01",
+    imagen: "golosinas_20",
     categoriaId: 4,
   },
   {
     nombre: "Gongys",
     precio: 250,
-    imagen: "golosinas_01",
+    imagen: "golosinas_21",
     categoriaId: 4,
   },
   {
     nombre: "Mentitas",
     precio: 200,
-    imagen: "golosinas_01",
+    imagen: "golosinas_22",
     categoriaId: 4,
   },
+  // HELADOS
   {
     nombre: "Agua Limon",
     precio: 0,
@@ -317,6 +322,7 @@ const productos = [
     imagen: "helados_01",
     categoriaId: 5,
   },
+  // LIBRERIA
   {
     nombre: "En Proceso",
     precio: 0,
