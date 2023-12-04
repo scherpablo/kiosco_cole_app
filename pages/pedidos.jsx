@@ -12,7 +12,7 @@ export default function Admin() {
     <div className={styles.containerLayout}>
       <AdminLayout pagina={"Admin"}>
         <h2 className={styles.h2}>Panel de Administración</h2>
-        <p className={styles.p}>Administra los peidos a continuación...</p>
+        <p className={styles.p}>Administra los pedidos a continuación...</p>
 
         {data && data.length ? (
           data.map((orden) => <Pedido key={orden.id} orden={orden} />)
