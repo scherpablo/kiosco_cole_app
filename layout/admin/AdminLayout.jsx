@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import styles from "./AdminLayout.module.css"
@@ -14,13 +15,15 @@ export default function AdminLayout({ children, pagina }) {
 
       <div className={styles.divAside}>
         <aside className={styles.aside}>
-          <Image
-            width={125}
-            height={125}
-            src="/assets/img/logo.svg"
-            alt="imagen logotipo"
-            className={styles.logo}
-          />
+          <Link href={"/"}>
+            <Image
+              width={150}
+              height={150}
+              src="/assets/img/logo.svg"
+              alt="imagen logotipo"
+              className={styles.logo}
+            />
+          </Link>
         </aside>
 
         <main className="md:w-8/12 xl:w-3/4 2xl:w-4/5 h-screen overflow-y-scroll">

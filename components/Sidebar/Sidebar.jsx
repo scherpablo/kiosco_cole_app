@@ -1,9 +1,11 @@
+import { useRouter } from "next/router";
+
 import Image from "next/image";
+import Link from "next/link"
 import styles from "./Sidebar.module.css";
 import useKiosco from "../../hooks/useKiosco";
 import Categorias from "../Categorias/Categorias";
 
-import { useRouter } from "next/router";
 
 const pasos = [
   { paso: 1, nombre: "Menú", url: "/" },
@@ -18,14 +20,16 @@ const Sidebar = () => {
   return (
     <>
       <div className={styles.containerNav}>
-        <Image
-          width={150}
-          height={150}
-          src="assets/img/logo.svg"
-          alt="imagen icono"
-          className={styles.logoImg}
-          priority="true"
-        />
+        <Link href={"/"}>
+          <Image
+            width={150}
+            height={150}
+            src="assets/img/logo.svg"
+            alt="imagen icono"
+            className={styles.logoImg}
+            priority="true"
+          />
+        </Link>
 
         <nav className={styles.nav}>
           {categorias.map((categoria) => (
@@ -48,7 +52,7 @@ const Sidebar = () => {
               {paso.nombre}
             </button>
           ))}
-        </div>        
+        </div>
       </div>
     </>
   );
