@@ -51,7 +51,7 @@ const Orden = ({ orden }) => {
           <div className={styles.divPlato} key={plato.id}>
             <div className={styles.divImagen}>
               <Image
-                src={`/assets/img/${plato.imagen}.jpg`}
+                src={`/assets/img/productos${plato.imagen}.jpg`}
                 width={200}
                 height={250}
                 alt={`Imagen Plato: ${plato.nombre}`}
