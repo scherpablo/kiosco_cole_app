@@ -2,7 +2,7 @@ import useSWR from "swr";
 import axios from "axios";
 import AdminLayout from "../layout/admin/AdminLayout";
 import Pedido from "../components/Pedido/Pedido";
-import styles from "./pedidos.module.css";
+import styles from "./naty0816.module.css";
 
 export default function Admin() {
   const fetcher = () => axios("/api/pedidos").then((datos) => datos.data);
