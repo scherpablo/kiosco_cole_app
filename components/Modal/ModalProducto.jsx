@@ -24,7 +24,7 @@ const Modal = () => {
         <div className={styles.divImagen}>
           <Image
             className={styles.imagen}
-            src={`/assets/img/${producto.imagen}.jpg`}
+            src={`/assets/img/productos/${producto.imagen}.jpg`}
             alt={`imagen producto ${producto.nombre}`}
             width={300}
             height={400}
