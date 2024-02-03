@@ -25,10 +25,12 @@ Modal.setAppElement("#__next");
 export default function Layout({ children, pagina }) {
   const { modal } = useKiosco();
 
+  const pageTitle = typeof pagina === 'string' ? pagina : '';
+
   return (
     <>
       <Head>
-        <title>Kiosco Cole - {pagina}</title>
+        <title>{`Kiosco Cole - ${pageTitle}`}</title>
         <meta name="description" content="Kiosco Virtual" />
       </Head>
       <div className={styles.containerAsaide}>

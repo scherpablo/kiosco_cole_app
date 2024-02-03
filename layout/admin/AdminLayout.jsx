@@ -6,10 +6,12 @@ import "react-toastify/dist/ReactToastify.css";
 import styles from "./AdminLayout.module.css"
 
 export default function AdminLayout({ children, pagina }) {
+  const pageTitle = typeof pagina === 'string' ? pagina : '';
+
   return (
     <>
       <Head>
-        <title>Kiosco Cole - {pagina}</title>
+        <title>{`Kiosco Cole - ${pageTitle}`}</title>
         <meta name="description" content="Kiosco Virtual" />
       </Head>
 
