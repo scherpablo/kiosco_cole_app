@@ -44,7 +44,7 @@ const FormEditProduct = ({ children }: { children: React.ReactNode }) => {
 
           <input
             type="submit"
-            value="guardar cambios"
+            value="guardar cambioss"
             className="bg-indigo-600 hover:bg-indigo-800 uppercase text-white w-full p-3 rounded-lg font-bold cursor-pointer mt-5"
           />
         </form>
