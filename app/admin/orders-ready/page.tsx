@@ -28,16 +28,7 @@ const OrdersPage = () => {
       <>
         <Title>Panel de Administración - Pedidos</Title>
         <Heading>Pedidos Terminados</Heading>
-{/* 
-        {data.length ? (
-          <div className="grid grid-cols-2 gap-5 max-w-5xl mx-auto mt-10">
-            {data.map((order) => (
-              <OrdrerItemList key={order.id} order={order} />
-            ))}
-          </div>
-        ) : (
-          <p>No hay pedidos listos</p>
-        )} */}
+
         {data.length ? (
           <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-4 gap-5 mt-5">
             {data.map((order) => (
@@ -45,7 +36,7 @@ const OrdersPage = () => {
             ))}
           </div>
         ) : (
-          <p>No hay pedidos listos</p>
+          <p className="text-center">No hay pedidos listos</p>
         )}
       </>
     );
