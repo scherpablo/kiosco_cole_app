@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "App Pedidos Next",
+  title: "Kiosco Virtual",
   description: "Aplicación de Pedidos Online con Next Js, App Router y Prisma",
 };
 
