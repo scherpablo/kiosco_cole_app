@@ -12,7 +12,8 @@ const ImageUpload = ({ image }: { image: string | undefined }) => {
   return (
     <>
       <CldUploadWidget
-        uploadPreset="ndseojzg"
+        // uploadPreset="ndseojzg"
+        uploadPreset="kiosco-app-cole"
         options={{ maxFiles: 1 }}
         onSuccess={(result, { widget }) => {
           if (result.event === "success") {
